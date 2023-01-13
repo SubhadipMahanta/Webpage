@@ -1,0 +1,424 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    padding: 0px;
+    margin: 0px;
+}
+.first{
+    padding: 10px;
+    margin: 0px;
+   background-image: url("banner-bg.png");
+   height: 800px;
+   width: 100%;
+}
+nav{
+    background-color: rgb(207, 224, 224);
+   
+}
+.div1{
+    /* background-color: red; */
+    height: 60px;
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding: 5px;
+}
+.div1:hover{
+    cursor: pointer;
+}
+.div2{
+    width: 35%;
+    height: 60px;
+    text-align: center;
+    /* background-color: brown; */
+    float: left;
+    padding: 5px;
+    padding-top: 15px;
+}
+.div2 a{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.div2 a:hover{
+    color: orange;
+}
+.div3{
+    width: 35%;
+    /* background-color: pink; */
+    float: left;
+    display: flex;
+    padding: 5px;
+    height: 60px;
+    justify-content: center;
+}
+.div3 p{
+    margin-right: 30px;
+    color: orange;
+}
+.div3 .input1{
+  background-image: url("searchIcon.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+ width: 50px;
+ height: 35px;
+ margin-top: 10px;
+ border: none;
+    
+}
+.div3 .input1:hover{
+    cursor: pointer;
+}
+
+.div3 button{
+    width: 80px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.div3 button:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.div4{
+    /* background-color: red; */
+    margin-top:200px;
+    text-align: center;
+
+}
+.div4 h1{
+    font-size: 4rem;
+    font-style: italic;
+}
+.div4 p{
+    /* background-color: pink; */
+    width: 20%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    
+}
+.btn2{
+     background-color: red;
+     width: 50px;
+     height: 50px;
+     border-radius: 200px;
+     background-color: black;
+     color: white;
+     font-size: 1rem;
+     position: relative;
+     top: 200px;
+     left: 50px;
+     border: none;
+     cursor: pointer;
+}
+.btn2:hover{
+    background-color: orange;
+}
+.btn3:hover{
+    background-color: orange;
+}
+.btn3{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    top: 200px;
+    left: 1750px;
+    border: none;
+    cursor: pointer;
+}
+.btn4{
+    background-color: orange;
+    width: 160px;
+    height: 50px;
+    /* border-radius: 200px; */
+    /* background-color: black; */
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    top: 200px;
+    left: 800px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn4:hover{
+    background-color: black;
+}
+
+.sec{
+    /* background-color: red; */
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+
+}
+.sec .div11{
+    /* background-color: yellow; */
+    text-align: center;
+    padding: 10px;
+}
+.sec .div11 h2{
+    font-size: 2rem;
+
+}
+.sec .div12{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center
+}
+.sec .div12 section{
+    margin: 20px;
+    text-align: center;
+}
+.sec .div12 section p{
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+.sec .div12 section button{
+    width: 120px;
+    margin-top: 10px;
+    padding: 14px;
+    font-weight: border;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.sec .div12 section button:hover{
+    background-color: black;
+    color: white;
+}
+.three{
+    background-color: rgb(150, 108, 30);
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+.three .sec11{
+    /* background-color: red; */
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+
+}
+.three .sec11 h1{
+    color: white;
+    margin-bottom: 30px;
+}
+.three .sec11 p{
+    width: 60%;
+    margin: 0px auto;
+    text-align: justify;
+    color: white;
+    margin-bottom: 50px;
+}
+.three .sec11 button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.three .sec11 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.four{
+    background-color: rgb(238, 233, 233);
+    height: 700px;
+    width: 100%;
+    padding: 20px;
+}
+.four .sec21{
+    /* background-color: yellow; */
+    padding: 10px;
+    text-align: center;
+}
+.four .sec22{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    padding: 10px;
+}
+.four .sec22 img{
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.img22:hover{
+    /* background-color: red; */
+   
+}
+.four .sec22 h4{
+    margin-top: 10px;
+    color: orange;
+}
+.four .sec22 p{
+    /* background-color: blue; */
+    height: 90px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.five{
+    background-image:url("bg-1.png");
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
+ .five h1{
+    color: white;
+ }
+ .five .p1{
+    color: white;
+    font-weight: bolder;
+ }
+ .five .p2{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    color: white;
+    font-weight: bolder;
+ }
+ .five button{
+    width: 170px;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+ }
+ .five button:hover{
+    background-color: white;
+    color: black;
+ }
+.six{
+    /* background-color: red; */
+    height: 650px;
+    width: 100%;
+    padding: 20px;
+}
+.six .div1{
+    /* background-color: yellow; */
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.six .div2{
+    /* background-color: yellow; */
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.six .div2 div{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.six .div2 div .p2{
+    /* background-color: red; */
+    margin-top: 230px;
+
+    color: white;
+    font-weight: bolder;
+    
+}
+.six .div2 .sec1{
+    /* background-color: rgb(172, 164, 164); */
+    height: 100px;
+    margin-top: 100px;
+}
+.six .div2 .sec1 button{
+   padding: 15px;
+   font-weight: bolder;
+   color: white;
+   background-color: black;
+   border: none;
+   cursor: pointer;
+}
+.six .div2 .sec1 button:hover{
+    background-color: rgb(151, 151, 5);
+}
+.six .div2 .sec5{
+    /* background-color: rgb(172, 164, 164); */
+    height: 100px;
+    margin-top: 100px;
+}
+.six .div2 .sec5 button{
+   padding: 15px;
+   font-weight: bolder;
+   color: white;
+   background-color: black;
+   border: none;
+   cursor: pointer;
+}
+.six .div2 .sec5 button:hover{
+    background-color: rgb(133, 133, 5);
+}
+
+.six .sec2{
+    background-image: url("img-4.png");
+    cursor: pointer;
+}
+
+.six .sec3{
+    background-image: url("img-5.png");
+    cursor: pointer;
+}
+.six .sec4{
+    background-image: url("img-6.png");
+    cursor: pointer;
+}
+
+.six .sec2:hover{
+    background-color: rgb(177, 177, 28);
+}
+
